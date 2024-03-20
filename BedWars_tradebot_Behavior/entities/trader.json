@@ -1,143 +1,122 @@
 {
-	"format_version": "1.19.60",
-	"minecraft:entity": {
-		"description": {
-			"identifier": "BedWars:trader",
-			"is_spawnable": false,
-			"is_summonable": true,
-			"is_experimental": false
-		},
+  "format_version": "1.19.60",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "BedWars:trader",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
 
-		"component_groups": {
-			"minecraft:type_family": {
-				"family": [ "trader", "mob" ]
-			},
-			"components": {
-				"minecraft:type_family": {
-					"family": [ "trader", "mob" ]
-				},
-				"minecraft:health": {
-					"value": 20000,
-					"max": 20000
-				},
-				"minecraft:nameable": {
-				},
-				"minecraft:movement": {
-					"value": 0
-				},
-				"minecraft:navigation.walk": {
-					"is_amphibious": true,
-					"can_path_over_water": true,
-					"can_pass_doors": false,
-					"can_open_doors": false,
-					"can_walk": false,
-					"avoid_water": true
-				},
-				"minecraft:annotation.open_door": {
+    "components": {
+      "minecraft:health": {
+        "value": 20000,
+        "max": 20000
+      },
+      "minecraft:nameable": {
+      },
+      "minecraft:movement": {
+        "value": 0
+      },
+      "minecraft:navigation.walk": {
+        "is_amphibious": true,
+        "can_path_over_water": true,
+        "can_pass_doors": false,
+        "can_open_doors": false,
+        "can_walk": false,
+        "avoid_water": true
+      },
+      "minecraft:annotation.open_door": {
 
-				},
-				"minecraft:movement.basic": {
-				},
-				"minecraft:jump.static": {
-				},
-				"minecraft:can_climb": {
-				},
-				"minecraft:inventory": {
-					"inventory_size": 64,
-					"private": true
-				},
-				"minecraft:damage_sensor": {
-				},
-				"minecraft:persistent": {
-				},
-				"minecraft:behavior.float": {
-					"priority": 0
-				},
-				"minecraft:behavior.trade_with_player": {
-					"priority": 1,
-					"filters": {
-						"all_of": [
-							{
-								"all_of": [
-									{
-										"test": "in_water",
-										"value": false
-									}
-								]
-							},
-							{
-								"any_of": [
-									{
-										"test": "on_ground",
-										"value": true
-									},
-									{
-										"test": "is_sleeping",
-										"value": true
-									}
-								]
-							}
-						]
-					}
-				},
-				"minecraft:behavior.look_at_trading_player": {
-					"priority": 0
-				},
-				"minecraft:behavior.panic": {
-				},
-				"minecraft:behavior.avoid_mob_type": {
-				},
-				"minecraft:behavior.move_indoors": {
-					"priority": 0,
-					"speed_multiplier": 0
-				},
-				"minecraft:behavior.restrict_open_door": {
-					"priority": 5
-				},
-				"minecraft:behavior.open_door": {
-					"priority": 6,
-					"close_door_after": false
-				},
-				"minecraft:behavior.share_items": {
-				},
-				"minecraft:behavior.pickup_items": {
-				},
-				"minecraft:behavior.random_stroll": {
-				},
-				"minecraft:behavior.look_at_player": {
-					"priority": 12,
-					"look_distance": 8,
-					"probability": 1
-				},
-				"minecraft:physics": {
-				},
-				"minecraft:pushable": {
-					"is_pushable": false,
-					"is_pushable_by_piston": false
-				},
-				"minecraft:conditional_bandwidth_optimization": {
-				}
-			},
-			"events": {
-				"minecraft:entity_spawned": {
-				},
-
-				"minecraft:entity_transformed": {
-				},
-
-				"minecraft:entity_born": {
-				},
-
-				"minecraft:ageable_grow_up": {
-				},
-				"minecraft:trade_table": {
-					"display_name": "entity.BedWars:trader",
-					"table": "trading/trader_tradeoption.json",
-					"new_screen": false,
-					"persist_trades": false,
-					"convert_trades_economy": false
-				}
-			}
-		}
-	}
+      },
+      "minecraft:movement.basic": {
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:inventory": {
+        "inventory_size": 64,
+        "private": true
+      },
+      "minecraft:damage_sensor": {
+      },
+      "minecraft:persistent": {
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.trade_with_player": {
+        "priority": 1,
+        "filters": {
+          "all_of": [
+            {
+              "all_of": [
+                {
+                  "test": "in_water",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "any_of": [
+                {
+                  "test": "on_ground",
+                  "value": true
+                },
+                {
+                  "test": "is_sleeping",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "minecraft:behavior.look_at_trading_player": {
+        "priority": 0
+      },
+      "minecraft:behavior.panic": {
+      },
+      "minecraft:behavior.avoid_mob_type": {
+      },
+      "minecraft:behavior.move_indoors": {
+        "priority": 0,
+        "speed_multiplier": 0
+      },
+      "minecraft:behavior.restrict_open_door": {
+        "priority": 5
+      },
+      "minecraft:behavior.open_door": {
+        "priority": 6,
+        "close_door_after": false
+      },
+      "minecraft:behavior.share_items": {
+      },
+      "minecraft:behavior.pickup_items": {
+      },
+      "minecraft:behavior.random_stroll": {
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 12,
+        "look_distance": 8,
+        "probability": 1
+      },
+      "minecraft:physics": {
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+      },
+      "minecraft:trade_table": {
+        "display_name": "entity.BedWars:trader",
+        "table": "trading/trader_tradeoption.json",
+        "new_screen": false,
+        "persist_trades": false,
+        "convert_trades_economy": false
+      }
+    }
+  }
 }
