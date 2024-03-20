@@ -11,7 +11,7 @@
         "default": "textures/entity/villager/villager"
       },
       "geometry": {
-        "default": "geometry.villager.v1.8"
+        "default": "geometry.trader.v1.8"
       },
       "scripts": {
         "scale": "0.9375"
