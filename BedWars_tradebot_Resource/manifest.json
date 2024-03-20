@@ -1,0 +1,25 @@
+{
+	"format_version": 1,
+	"header": {
+			"description": "BedWarsTradebot",
+			"name": "BedWars-TradeBot_Resource",
+			"uuid": "2770c62f-9a9b-48b0-ba7d-8faa0d6fba35",
+			"platform_locked": false,
+			"version": [ 0, 0, 1 ],
+			"min_engine_version": [ 1, 12, 60 ]
+	},
+	"modules": [
+		{
+			"description": "",
+			"type": "resources",
+			"uuid": "66f33b3c-3c42-4197-a8b0-3cd8ada282ae",
+			"version": [ 0, 0, 1 ]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "ea251329-3790-41f5-8fe4-fe1cbdd20a14",
+			"version": [ 0, 0, 1 ]
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"format_version": 1,
+	"header": {
+		"description": "BedWars-tradebot",
+		"name": "BedWars-TradeBot_Behavior",
+		"uuid": "ea251329-3790-41f5-8fe4-fe1cbdd20a14",
+		"version": [ 0, 0, 1 ],
+		"min_engine_version": [ 1, 12, 60 ]
+	},
+
+	"modules": [
+		{
+			"description": "",
+			"type": "data",
+			"uuid": "6e1ad680-e5a9-47e6-ac4d-38601ad81da4",
+			"version": [ 0, 0, 1 ]
+		}
+	],
+
+	"dependencies": [
+		{
+			"uuid": "2770c62f-9a9b-48b0-ba7d-8faa0d6fba35",
+			"version": [ 0, 0, 1 ]
+		}
+	]
+}		
