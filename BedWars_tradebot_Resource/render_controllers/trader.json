@@ -2,7 +2,7 @@
   "format_version": "1.8.0",
   "render_controllers": {
     "controller.render.trader": {
-      "geometry": "Geomatry.default",
+      "geometry": "Geometry.default",
       "materials": [
         {
           "*": "Material.default"
