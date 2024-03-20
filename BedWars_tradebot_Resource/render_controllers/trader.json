@@ -2,7 +2,14 @@
   "format_version": "1.8.0",
   "render_controllers": {
     "controller.render.trader": {
-
+      "rebilud_animation_matrices": true,
+      "geometry": "Geomatry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [ "Texture.default" ]
     }
   }
 }
