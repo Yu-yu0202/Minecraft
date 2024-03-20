@@ -4,7 +4,7 @@
 		"description": "BedWars-tradebot",
 		"name": "BedWars-TradeBot_Behavior",
 		"uuid": "ea251329-3790-41f5-8fe4-fe1cbdd20a14",
-		"version": [ 0, 0, 1 ],
+		"version": [ 0, 0, 2 ],
 		"min_engine_version": [ 1, 12, 60 ]
 	},
 

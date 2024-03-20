@@ -5,7 +5,7 @@
 			"name": "BedWars-TradeBot_Resource",
 			"uuid": "2770c62f-9a9b-48b0-ba7d-8faa0d6fba35",
 			"platform_locked": false,
-			"version": [ 0, 0, 1 ],
+			"version": [ 0, 0, 2 ],
 			"min_engine_version": [ 1, 12, 60 ]
 	},
 	"modules": [
