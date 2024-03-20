@@ -2,7 +2,7 @@
   "format_version": "1.8.0",
   "minecraft:client_entity": {
     "description": {
-      "identifier": "minecraft:trader",
+      "identifier": "BedWars:trader",
       "min_engine_version": "1.8.0",
       "materials": {
         "default": "villager"
@@ -27,7 +27,7 @@
         { "move": "controller.animation.villager.move" },
         { "baby": "controller.animation.villager.baby" }
       ],
-      "render_controllers": [ "controller.render.villager" ],
+      "render_controllers": [ "controller.render.trader" ],
       "spawn_egg": {
         "texture": "spawn_egg",
         "texture_index": 14
