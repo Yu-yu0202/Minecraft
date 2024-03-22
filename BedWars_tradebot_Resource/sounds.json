@@ -1,5 +1,5 @@
 {
-  "villager": {
+  "trader": {
     "events": {
       "ambient": "mob.villager.idle",
       "death": "mob.villager.death",

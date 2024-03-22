@@ -1,2 +1,2 @@
-item.spawn_egg.entity.BedWars:trader.name=貿易者のスポーンエッグ
-entity.BedWars:trader.name=貿易者
+item.spawn_egg.entity.bedwars:trader.name=item.spawn_egg.entity.bedwars:trader.name
+entity.bedwars:trader.name=entity.bedwars:trader.name

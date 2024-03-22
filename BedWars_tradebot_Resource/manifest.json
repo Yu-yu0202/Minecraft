@@ -13,13 +13,13 @@
 			"description": "",
 			"type": "resources",
 			"uuid": "66f33b3c-3c42-4197-a8b0-3cd8ada282ae",
-			"version": [ 0, 0, 1 ]
+			"version": [ 0, 0, 2 ]
 		}
 	],
 	"dependencies": [
 		{
 			"uuid": "ea251329-3790-41f5-8fe4-fe1cbdd20a14",
-			"version": [ 0, 0, 1 ]
+			"version": [ 0, 0, 2 ]
 		}
 	]
 }
