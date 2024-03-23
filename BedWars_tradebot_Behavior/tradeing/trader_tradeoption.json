@@ -44,6 +44,19 @@
 				{
 					"wants": [
 						{
+							"item": "minecraft:diamond",
+							"quantity": 3
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:diamond_sword"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
 							"item": "minecraft:brick",
 							"quantity": 4
 						}
@@ -94,6 +107,244 @@
 						{
 							"item": "minecraft:end_stone",
 							"quantity": 12
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:diamond",
+							"quantity": 4
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:obsidian"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:brick",
+							"quantity": 2
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:arrow"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:iron_ingot",
+							"quantity": 3
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:bow"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:brick",
+							"quantity": 30
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:paper",
+							"quantity": 4,
+							"functions": [
+								{
+									"function": "set_name",
+									"name": "チェーン防具交換チケット(交易してね)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:iron_ingot",
+							"quantity": 10
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:paper",
+							"quantity": 4,
+							"functions": [
+								{
+									"function": "set_name",
+									"name": "鉄防具交換チケット（交易してね）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:paper",
+							"quantity": 1,
+							"functions": [
+								{
+									"function": "set_name",
+									"name": "チェーン防具交換チケット（交易してね）"
+								}
+							]
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:chainmail_helmet"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:paper",
+							"quantity": 1,
+							"functions": [
+								{
+									"function": "set_name",
+									"name": "チェーン防具交換チケット（交易してね）"
+								}
+							]
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:chainmail_chestplate"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:paper",
+							"quantity": 1,
+							"functions": [
+								{
+									"function": "set_name",
+									"name": "チェーン防具交換チケット（交易してね）"
+								}
+							]
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:chainmail_leggings"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:paper",
+							"quantity": 1,
+							"functions": [
+								{
+									"function": "set_name",
+									"name": "チェーン防具交換チケット（交易してね）"
+								}
+							]
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:chainmail_boots"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:paper",
+							"quantity": 1,
+							"functions": [
+								{
+									"function": "set_name",
+									"name": "鉄防具交換チケット（交易してね）"
+								}
+							]
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:iron_helmet"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:paper",
+							"quantity": 1,
+							"functions": [
+								{
+									"function": "set_name",
+									"name": "鉄防具交換チケット（交易してね）"
+								}
+							]
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:iron_chestplate"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:paper",
+							"quantity": 1,
+							"functions": [
+								{
+									"function": "set_name",
+									"name": "鉄防具交換チケット（交易してね）"
+								}
+							]
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:iron_leggings"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:paper",
+							"quantity": 1,
+							"functions": [
+								{
+									"function": "set_name",
+									"name": "鉄防具交換チケット（交易してね）"
+								}
+							]
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:iron_boots"
 						}
 					]
 				}
