@@ -152,7 +152,39 @@
 				{
 					"wants": [
 						{
-							"item": "minecraft:"
+							"item": "minecraft:brick",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:shears"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:brick",
+							"quantity": 6
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:wooden_pickaxe"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:iron_ingot",
+							"quantity": 3
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:iron_pickaxe"
 						}
 					]
 				},
