@@ -113,9 +113,9 @@
       "minecraft:trade_table": {
         "display_name": "entity.BedWars:trader.name",
         "table": "trading/trader_tradeoption.json",
-        "new_screen": false,
+        "new_screen": true,
         "persist_trades": false,
-        "convert_trades_economy": false
+        "convert_trades_economy": true
       }
     }
   }
