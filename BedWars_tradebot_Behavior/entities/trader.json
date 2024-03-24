@@ -111,7 +111,7 @@
       "minecraft:conditional_bandwidth_optimization": {
       },
       "minecraft:trade_table": {
-        "display_name": "entity.BedWars:trader",
+        "display_name": "entity.BedWars:trader.name",
         "table": "trading/trader_tradeoption.json",
         "new_screen": false,
         "persist_trades": false,
