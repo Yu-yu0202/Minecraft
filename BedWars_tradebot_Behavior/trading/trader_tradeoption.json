@@ -1,318 +1,338 @@
 {
-	"tiers": [
-		{
-			"trades": [
-				{
-					"wants": [
-						{
-							"item": "minecraft:brick",
-							"quantity": 2
-						}
-					],
-					"gives": [
-						{
-							"item": "minecraft:wooden_sword"
-						}
-					]
-				},
-				{
-					"wants": [
-						{
-							"item": "minecraft:brick",
-							"quantity": 4
-						}
-					],
-					"gives": [
-						{
-							"item": "minecraft:golden_sword"
-						}
-					]
-				},
-				{
-					"wants": [
-						{
-							"item": "minecraft:iron_ingot",
-							"quantity": 3
-						}
-					],
-					"gives": [
-						{
-							"item": "minecraft:iron_sword"
-						}
-					]
-				},
-				{
-					"wants": [
-						{
-							"item": "minecraft:diamond",
-							"quantity": 3
-						}
-					],
-					"gives": [
-						{
-							"item": "minecraft:diamond_sword"
-						}
-					]
-				},
-				{
-					"wants": [
-						{
-							"item": "minecraft:brick",
-							"quantity": 4
-						}
-					],
-					"gives": [
-						{
-							"item": "minecraft:white_wool",
-							"quantity": 16
-						}
-					]
-				},
-				{
-					"wants": [
-						{
-							"item": "minecraft:brick",
-							"quantity": 4
-						}
-					],
-					"gives": [
-						{
-							"item": "minecraft:oak_planks",
-							"quantity": 16
-						}
-					]
-				},
-				{
-					"wants": [
-						{
-							"item": "minecraft:brick",
-							"quantity": 4
-						}
-					],
-					"gives": [
-						{
-							"item": "minecraft:ladder",
-							"quantity": 8
-						}
-					]
-				},
-				{
-					"wants": [
-						{
-							"item": "minecraft:iron_ingot",
-							"quantity": 4
-						}
-					],
-					"gives": [
-						{
-							"item": "minecraft:end_stone",
-							"quantity": 12
-						}
-					]
-				},
-				{
-					"wants": [
-						{
-							"item": "minecraft:diamond",
-							"quantity": 4
-						}
-					],
-					"gives": [
-						{
-							"item": "minecraft:obsidian"
-						}
-					]
-				},
-				{
-					"wants": [
-						{
-							"item": "minecraft:brick",
-							"quantity": 2
-						}
-					],
-					"gives": [
-						{
-							"item": "minecraft:arrow"
-						}
-					]
-				},
-				{
-					"wants": [
-						{
-							"item": "minecraft:iron_ingot",
-							"quantity": 3
-						}
-					],
-					"gives": [
-						{
-							"item": "minecraft:bow"
-						}
-					]
-				},
-				{
-					"wants": [
-						{
-							"item": "minecraft:brick",
-							"quantity": 6
-						}
-					],
-					"gives": [
-						{
-							"item": "minecraft:shears"
-						}
-					]
-				},
-				{
-					"wants": [
-						{
-							"item": "minecraft:brick",
-							"quantity": 6
-						}
-					],
-					"gives": [
-						{
-							"item": "minecraft:wooden_pickaxe"
-						}
-					]
-				},
-				{
-					"wants": [
-						{
-							"item": "minecraft:iron_ingot",
-							"quantity": 3
-						}
-					],
-					"gives": [
-						{
-							"item": "minecraft:iron_pickaxe"
-						}
-					]
-				},
-				{
-					"wants": [
-						{
-							"item": "minecraft:brick",
-							"quantity": 7
-						}
-					],
-					"gives": [
-						{
-							"item": "minecraft:chainmail_chestplate",
-							"quantity": 1
-						}
-					]
-				},
-				{
-					"wants": [
-						{
-							"item": "minecraft:iron_ingot",
-							"quantity": 10
-						}
-					],
-					"gives": [
-						{
-							"item": "minecraft:iron_chestplate",
-							"quantity": 1
-						}
-					]
-				},
-				{
-					"wants": [
-						{
-							"item": "minecraft:iron_ingot",
-							"quantity": 16
-						}
-					],
-					"gives": [
-						{
-							"item": "minecraft:book",
-							"functions": [
-								{
-									"function": "specific_enchants",
-									"enchants": [
-										{
-											"id": "minecraft:protection",
-											"level": 1
-										}
-									]
-								}
-							]
-						}
-					]
-				},
-				{
-					"wants": [
-						{
-							"item": "minecraft:diamond",
-							"quantity": 10
-						}
-					],
-					"gives": [
-						{
-							"item": "minecraft:book",
-							"functions": [
-								{
-									"function": "specific_enchants",
-									"enchants": [
-										{
-											"id": "minecraft:protection",
-											"level": 3
-										}
-									]
-								}
-							]
-						}
-					]
-				},
-				{
-					"wants": [
-						{
-							"item": "minecraft:iron_ingot",
-							"quantity": 16
-						}
-					],
-					"gives": [
-						{
-							"item": "minecraft:book",
-							"functions": [
-								{
-									"function": "specific_enchants",
-									"enchants": [
-										{
-											"id": "minecraft:sharpness",
-											"level": 1
-										}
-									]
-								}
-							]
-						}
-					]
-				},
-				{
-					"wants": [
-						{
-							"item": "minecraft:diamond",
-							"quantity": 10
-						}
-					],
-					"gives": [
-						{
-							"item": "minecraft:book",
-							"functions": [
-								{
-									"function": "specific_enchants",
-									"enchants": [
-										{
-											"id": "minecraft:sharpness",
-											"level": 4
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-	]
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:brick",
+              "quantity": 2
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:wooden_sword"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:brick",
+              "quantity": 4
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:golden_sword"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:iron_ingot",
+              "quantity": 3
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:iron_sword"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:diamond",
+              "quantity": 3
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:diamond_sword"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:iron_ingot",
+              "quantity": 2
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:stick",
+              "function": "specific_enchants",
+              "enchants": [
+                {
+                  "id": "knockback",
+                  "level": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "wants": [
+        {
+          "item": "minecraft:brick",
+          "quantity": 4
+        }
+      ],
+      "gives": [
+        {
+          "item": "minecraft:white_wool",
+          "quantity": 16
+        }
+      ]
+    },
+    {
+      "wants": [
+        {
+          "item": "minecraft:brick",
+          "quantity": 4
+        }
+      ],
+      "gives": [
+        {
+          "item": "minecraft:oak_planks",
+          "quantity": 16
+        }
+      ]
+    },
+    {
+      "wants": [
+        {
+          "item": "minecraft:brick",
+          "quantity": 4
+        }
+      ],
+      "gives": [
+        {
+          "item": "minecraft:ladder",
+          "quantity": 8
+        }
+      ]
+    },
+    {
+      "wants": [
+        {
+          "item": "minecraft:iron_ingot",
+          "quantity": 4
+        }
+      ],
+      "gives": [
+        {
+          "item": "minecraft:end_stone",
+          "quantity": 12
+        }
+      ]
+    },
+    {
+      "wants": [
+        {
+          "item": "minecraft:diamond",
+          "quantity": 4
+        }
+      ],
+      "gives": [
+        {
+          "item": "minecraft:obsidian"
+        }
+      ]
+    },
+    {
+      "wants": [
+        {
+          "item": "minecraft:brick",
+          "quantity": 2
+        }
+      ],
+      "gives": [
+        {
+          "item": "minecraft:arrow"
+        }
+      ]
+    },
+    {
+      "wants": [
+        {
+          "item": "minecraft:iron_ingot",
+          "quantity": 3
+        }
+      ],
+      "gives": [
+        {
+          "item": "minecraft:bow"
+        }
+      ]
+    },
+    {
+      "wants": [
+        {
+          "item": "minecraft:brick",
+          "quantity": 6
+        }
+      ],
+      "gives": [
+        {
+          "item": "minecraft:shears"
+        }
+      ]
+    },
+    {
+      "wants": [
+        {
+          "item": "minecraft:brick",
+          "quantity": 6
+        }
+      ],
+      "gives": [
+        {
+          "item": "minecraft:wooden_pickaxe"
+        }
+      ]
+    },
+    {
+      "wants": [
+        {
+          "item": "minecraft:iron_ingot",
+          "quantity": 3
+        }
+      ],
+      "gives": [
+        {
+          "item": "minecraft:iron_pickaxe"
+        }
+      ]
+    },
+    {
+      "wants": [
+        {
+          "item": "minecraft:brick",
+          "quantity": 7
+        }
+      ],
+      "gives": [
+        {
+          "item": "minecraft:chainmail_chestplate",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "wants": [
+        {
+          "item": "minecraft:iron_ingot",
+          "quantity": 10
+        }
+      ],
+      "gives": [
+        {
+          "item": "minecraft:iron_chestplate",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "wants": [
+        {
+          "item": "minecraft:iron_ingot",
+          "quantity": 16
+        }
+      ],
+      "gives": [
+        {
+          "item": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "specific_enchants",
+              "enchants": [
+                {
+                  "id": "protection",
+                  "level": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "wants": [
+        {
+          "item": "minecraft:diamond",
+          "quantity": 10
+        }
+      ],
+      "gives": [
+        {
+          "item": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "specific_enchants",
+              "enchants": [
+                {
+                  "id": "protection",
+                  "level": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "wants": [
+        {
+          "item": "minecraft:iron_ingot",
+          "quantity": 16
+        }
+      ],
+      "gives": [
+        {
+          "item": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "specific_enchants",
+              "enchants": [
+                {
+                  "id": "sharpness",
+                  "level": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "wants": [
+        {
+          "item": "minecraft:diamond",
+          "quantity": 10
+        }
+      ],
+      "gives": [
+        {
+          "item": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "specific_enchants",
+              "enchants": [
+                {
+                  "id": "sharpness",
+                  "level": 4
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
