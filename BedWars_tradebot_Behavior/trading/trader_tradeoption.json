@@ -225,7 +225,7 @@
 					],
 					"gives": [
 						{
-							"item": "minecraft:enchanted_book",
+							"item": "minecraft:book",
 							"functions": [
 								{
 									"function": "specific_enchants",
@@ -249,7 +249,7 @@
 					],
 					"gives": [
 						{
-							"item": "minecraft:enchanted_book",
+							"item": "minecraft:book",
 							"functions": [
 								{
 									"function": "specific_enchants",
@@ -273,7 +273,7 @@
 					],
 					"gives": [
 						{
-							"item": "minecraft:enchanted_book",
+							"item": "minecraft:book",
 							"functions": [
 								{
 									"function": "specific_enchants",
@@ -297,7 +297,7 @@
 					],
 					"gives": [
 						{
-							"item": "minecraft:enchanted_book",
+							"item": "minecraft:book",
 							"functions": [
 								{
 									"function": "specific_enchants",
