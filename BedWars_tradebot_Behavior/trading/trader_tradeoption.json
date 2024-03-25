@@ -63,7 +63,14 @@
           ],
           "gives": [
             {
-              "item": "minecraft:stick"
+              "item": "minecraft:stick",
+              "function": "specific_enchants",
+              "enchants": [
+                {
+                  "id": "knockback",
+                  "level": 1
+                }
+              ]
             }
           ]
         },
