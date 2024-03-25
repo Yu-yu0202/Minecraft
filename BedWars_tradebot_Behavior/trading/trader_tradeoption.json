@@ -215,6 +215,102 @@
 							"quantity": 1
 						}
 					]
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:iron_ingot",
+							"quantity": 16
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:enchanted_book",
+							"functions": [
+								{
+									"function": "specific_enchants",
+									"enchants": [
+										{
+											"id": "minecraft:protection",
+											"level": 1
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:diamond",
+							"quantity": 10
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:enchanted_book",
+							"functions": [
+								{
+									"function": "specific_enchants",
+									"enchants": [
+										{
+											"id": "minecraft:protection",
+											"level": 3
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:iron_ingot",
+							"quantity": 16
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:enchanted_book",
+							"functions": [
+								{
+									"function": "specific_enchants",
+									"enchants": [
+										{
+											"id": "minecraft:sharpness",
+											"level": 1
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:diamond",
+							"quantity": 10
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:enchanted_book",
+							"functions": [
+								{
+									"function": "specific_enchants",
+									"enchants": [
+										{
+											"id": "minecraft:sharpness",
+											"level": 4
+										}
+									]
+								}
+							]
+						}
+					]
 				}
 			]
 		}
