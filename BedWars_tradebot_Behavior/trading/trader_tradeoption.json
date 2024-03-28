@@ -57,26 +57,6 @@
         {
           "wants": [
             {
-              "item": "minecraft:iron_ingot",
-              "quantity": 2
-            }
-          ],
-          "gives": [
-            {
-              "item": "minecraft:stick",
-              "function": "specific_enchants",
-              "enchants": [
-                {
-                  "id": "knockback",
-                  "level": 1
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "wants": [
-            {
               "item": "minecraft:brick",
               "quantity": 4
             }

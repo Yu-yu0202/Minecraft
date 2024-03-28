@@ -1,0 +1,3 @@
+title @a title bedwarsスタートまであと1秒...
+xp -1L @a
+playsound random.click @a
